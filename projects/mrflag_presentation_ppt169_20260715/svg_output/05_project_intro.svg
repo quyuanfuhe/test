@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <text x="80" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="bold" fill="#0F172A">项目介绍</text>
+    <rect x="80" y="88" width="60" height="4" fill="#2563EB"/>
+  </g>
+
+  <g id="lead">
+    <text x="80" y="140" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" fill="#475569">一款基于 Pico 4 Ultra Enterprise 的双人混合现实（MR）夺旗对战游戏</text>
+  </g>
+
+  <g id="core-gameplay">
+    <rect x="80" y="175" width="1120" height="100" fill="#F1F5F9"/>
+    <rect x="80" y="175" width="4" height="100" fill="#2563EB"/>
+    <text x="110" y="210" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="bold" fill="#0F172A">核心玩法</text>
+    <text x="110" y="245" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#475569">在限定时间内，玩家佩戴头显在真实空间中抓取虚拟旗帜得分 — 单人 30 秒挑战 / 双人实时联机对战</text>
+  </g>
+
+  <g id="feature-cards">
+    <rect x="80" y="315" width="360" height="140" fill="#F1F5F9"/>
+    <text x="110" y="355" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#2563EB">01</text>
+    <text x="110" y="385" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#0F172A">地图编辑器</text>
+    <text x="110" y="415" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#475569">XR 手柄搭建自定义场景</text>
+
+    <rect x="460" y="315" width="360" height="140" fill="#F1F5F9"/>
+    <text x="490" y="355" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#0D9488">02</text>
+    <text x="490" y="385" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#0F172A">地图同步</text>
+    <text x="490" y="415" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#475569">WebSocket 云端推送地图</text>
+
+    <rect x="840" y="315" width="360" height="140" fill="#F1F5F9"/>
+    <text x="870" y="355" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#7C3AED">03</text>
+    <text x="870" y="385" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#0F172A">实时同步</text>
+    <text x="870" y="415" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#475569">UDP 30Hz 位置 + 空间锚点</text>
+  </g>
+
+  <g id="mode-cards">
+    <rect x="80" y="495" width="550" height="80" fill="#F1F5F9"/>
+    <rect x="80" y="495" width="4" height="80" fill="#2563EB"/>
+    <text x="110" y="530" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#0F172A">单人模式</text>
+    <text x="110" y="556" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#475569">30 秒限时夺旗挑战，独立计分</text>
+
+    <rect x="650" y="495" width="550" height="80" fill="#F1F5F9"/>
+    <rect x="650" y="495" width="4" height="80" fill="#0D9488"/>
+    <text x="680" y="530" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#0F172A">联机模式</text>
+    <text x="680" y="556" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#475569">双人局域网实时对战，服务端仲裁游戏逻辑</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">05</text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="520" height="720" fill="#2563EB"/>
+  </g>
+
+  <g id="title-block">
+    <text x="580" y="240" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#2563EB" letter-spacing="6">MR FLAG BATTLE</text>
+    <text x="580" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="60" font-weight="bold" fill="#0F172A">混合现实夺旗大战</text>
+    <text x="580" y="400" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="28" fill="#475569">Unity + Pico 4 Ultra Enterprise + Go 后端</text>
+    <rect x="580" y="430" width="120" height="4" fill="#0D9488"/>
+  </g>
+
+  <g id="meta-info">
+    <text x="580" y="520" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#94A3B8">项目总结汇报</text>
+    <text x="580" y="560" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">2026.07</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">01</text>
+  </g>
+</svg>

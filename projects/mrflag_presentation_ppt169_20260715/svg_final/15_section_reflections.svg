@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="section">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="480" height="720" fill="#F1F5F9"/>
+  </g>
+
+  <g id="chapter-header">
+    <text x="580" y="220" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="bold" fill="#10B981">04</text>
+    <text x="580" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="52" font-weight="bold" fill="#0F172A">思考与收获</text>
+    <rect x="580" y="335" width="80" height="4" fill="#2563EB"/>
+  </g>
+
+  <g id="chapter-contents">
+    <text x="580" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#475569">本板块涵盖以下内容：</text>
+
+    <g transform="translate(580, 460)">
+      <rect x="0" y="0" width="560" height="60" fill="#FFFFFF"/>
+      <rect x="0" y="0" width="4" height="60" fill="#2563EB"/>
+      <text x="24" y="38" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#0F172A">技术与管理收获 — 项目全过程的经验沉淀与能力提升</text>
+    </g>
+    <g transform="translate(580, 540)">
+      <rect x="0" y="0" width="560" height="60" fill="#FFFFFF"/>
+      <rect x="0" y="0" width="4" height="60" fill="#0D9488"/>
+      <text x="24" y="38" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#0F172A">未来展望 — 项目的持续优化方向与扩展可能性</text>
+    </g>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">15</text>
+  </g>
+</svg>

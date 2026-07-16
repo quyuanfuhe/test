@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <defs>
+    <radialGradient id="bgGlow" cx="85%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06D6D0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#0A0E17"/>
+    <rect width="1280" height="720" fill="url(#bgGlow)"/>
+  </g>
+
+  <g id="header">
+    <text x="100" y="60" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="bold" fill="#E2E8F0">技术与管理收获</text>
+    <rect x="100" y="78" width="80" height="2" rx="1" fill="url(#dividerGrad)"/>
+  </g>
+
+  <!-- Left: Technical -->
+  <g id="tech-col">
+    <text x="100" y="130" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="bold" fill="#3B82F6">技术收获</text>
+
+    <g transform="translate(100, 155)">
+      <rect x="0" y="0" width="500" height="48" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="31" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">Unity XR 开发体系与 Pico SDK 集成</text>
+    </g>
+    <g transform="translate(100, 213)">
+      <rect x="0" y="0" width="500" height="48" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="31" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">Video See-Through 与空间锚点核心技术</text>
+    </g>
+    <g transform="translate(100, 271)">
+      <rect x="0" y="0" width="500" height="48" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="31" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">UDP / WebSocket 实时网络通信实战</text>
+    </g>
+    <g transform="translate(100, 329)">
+      <rect x="0" y="0" width="500" height="48" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="31" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">客户端-服务端协议设计最佳实践</text>
+    </g>
+    <g transform="translate(100, 387)">
+      <rect x="0" y="0" width="500" height="48" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="31" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">Addressables 资源管理与构建流程</text>
+    </g>
+  </g>
+
+  <!-- Right: Management -->
+  <g id="mgmt-col">
+    <text x="680" y="130" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="bold" fill="#06D6D0">项目管理收获</text>
+
+    <g transform="translate(680, 155)">
+      <rect x="0" y="0" width="500" height="100" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">Git 版本控制与团队协作</text>
+      <text x="20" y="60" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">多人分支管理、PR Review 流程、冲突解决</text>
+    </g>
+
+    <g transform="translate(680, 275)">
+      <rect x="0" y="0" width="500" height="100" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">模块化架构设计</text>
+      <text x="20" y="60" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">网络层、逻辑层、UI 层、MR 层的分层解耦</text>
+    </g>
+
+    <g transform="translate(680, 395)">
+      <rect x="0" y="0" width="500" height="100" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">代码保护策略</text>
+      <text x="20" y="60" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">与后端协议强绑定的关键文件集中管理，DO NOT EDIT 清单</text>
+    </g>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">16</text>
+  </g>
+</svg>

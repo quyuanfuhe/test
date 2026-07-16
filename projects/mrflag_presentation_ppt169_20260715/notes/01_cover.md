@@ -1,0 +1,1 @@
+大家下午好，欢迎来到我们的项目汇报。今天我将为大家介绍 MR Flag Battle — 一款基于 Pico 4 Ultra Enterprise 的混合现实夺旗对战游戏。项目使用 Unity 引擎开发，Go 语言编写后端，实现了一个完整的 MR 游戏闭环。

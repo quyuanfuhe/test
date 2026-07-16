@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <defs>
+    <radialGradient id="bgGlow" cx="85%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06D6D0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#0A0E17"/>
+    <rect width="1280" height="720" fill="url(#bgGlow)"/>
+  </g>
+
+  <g id="header">
+    <text x="100" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="bold" fill="#E2E8F0">项目意义</text>
+    <rect x="100" y="90" width="80" height="2" rx="1" fill="url(#dividerGrad)"/>
+  </g>
+
+  <!-- Left column: Project significance -->
+  <g id="left-col">
+    <text x="100" y="145" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="bold" fill="#3B82F6">对项目的意义</text>
+
+    <g transform="translate(100, 175)">
+      <rect x="0" y="0" width="510" height="52" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">探索 MR 混合现实技术在游戏领域的应用</text>
+    </g>
+    <g transform="translate(100, 237)">
+      <rect x="0" y="0" width="510" height="52" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">实现 空间定位 → 编辑 → 对战 → 同步 的 MR 闭环</text>
+    </g>
+    <g transform="translate(100, 299)">
+      <rect x="0" y="0" width="510" height="52" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">打通 Unity 客户端与 Go 服务端的全栈链路</text>
+    </g>
+    <g transform="translate(100, 361)">
+      <rect x="0" y="0" width="510" height="52" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">为 Pico 平台 MR 多人交互应用提供参考方案</text>
+    </g>
+  </g>
+
+  <!-- Right column: Member significance -->
+  <g id="right-col">
+    <text x="670" y="145" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="bold" fill="#06D6D0">对成员的意义</text>
+
+    <g transform="translate(670, 175)">
+      <rect x="0" y="0" width="510" height="52" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">深入学习 Unity XR 开发与 Pico SDK 集成</text>
+    </g>
+    <g transform="translate(670, 237)">
+      <rect x="0" y="0" width="510" height="52" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">掌握 MR 空间锚点创建与应用核心技术</text>
+    </g>
+    <g transform="translate(670, 299)">
+      <rect x="0" y="0" width="510" height="52" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">积累 WebSocket / UDP 实时网络通信实战经验</text>
+    </g>
+    <g transform="translate(670, 361)">
+      <rect x="0" y="0" width="510" height="52" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">理解客户端-服务端协议设计与协作流程</text>
+    </g>
+    <g transform="translate(670, 423)">
+      <rect x="0" y="0" width="510" height="52" rx="6" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+      <text x="20" y="33" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#E2E8F0">锻炼复杂系统架构设计与团队协作能力</text>
+    </g>
+  </g>
+
+  <g id="quote">
+    <rect x="100" y="490" width="1080" height="80" rx="8" fill="#0A0E17" stroke="#1E293B" stroke-width="1"/>
+    <text x="640" y="538" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#64748B" text-anchor="middle">从零到完整 MR 游戏闭环 — 技术探索与团队成长并行</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">06</text>
+  </g>
+</svg>

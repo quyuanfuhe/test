@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <text x="80" y="60" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="bold" fill="#0F172A">游戏流程与构筑要素</text>
+    <rect x="80" y="78" width="60" height="4" fill="#2563EB"/>
+  </g>
+
+  <g id="flow-section">
+    <text x="80" y="125" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="bold" fill="#2563EB">游戏流程</text>
+
+    <g transform="translate(60, 155)">
+      <rect x="0" y="0" width="180" height="56" fill="#F1F5F9"/>
+      <rect x="0" y="0" width="4" height="56" fill="#2563EB"/>
+      <text x="16" y="26" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A">主菜单</text>
+      <text x="16" y="46" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#94A3B8">MainMenu</text>
+      <text x="190" y="38" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#2563EB">→</text>
+    </g>
+    <g transform="translate(280, 155)">
+      <rect x="0" y="0" width="180" height="56" fill="#F1F5F9"/>
+      <rect x="0" y="0" width="4" height="56" fill="#0D9488"/>
+      <text x="16" y="26" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A">选择模式</text>
+      <text x="16" y="46" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#94A3B8">Host / Join / Solo</text>
+      <text x="190" y="38" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#2563EB">→</text>
+    </g>
+    <g transform="translate(500, 155)">
+      <rect x="0" y="0" width="180" height="56" fill="#F1F5F9"/>
+      <rect x="0" y="0" width="4" height="56" fill="#7C3AED"/>
+      <text x="16" y="26" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A">地图选择</text>
+      <text x="16" y="46" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#94A3B8">MapSelect</text>
+      <text x="190" y="38" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#2563EB">→</text>
+    </g>
+    <g transform="translate(720, 155)">
+      <rect x="0" y="0" width="180" height="56" fill="#F1F5F9"/>
+      <rect x="0" y="0" width="4" height="56" fill="#F59E0B"/>
+      <text x="16" y="26" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A">游戏对战</text>
+      <text x="16" y="46" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#94A3B8">MRGame / MultiGame</text>
+      <text x="190" y="38" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#2563EB">→</text>
+    </g>
+    <g transform="translate(940, 155)">
+      <rect x="0" y="0" width="180" height="56" fill="#F1F5F9"/>
+      <rect x="0" y="0" width="4" height="56" fill="#10B981"/>
+      <text x="16" y="26" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#0F172A">显示得分</text>
+      <text x="16" y="46" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#94A3B8">返回主菜单</text>
+    </g>
+  </g>
+
+  <g id="building-blocks">
+    <text x="80" y="290" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="bold" fill="#2563EB">构筑要素</text>
+
+    <rect x="80" y="315" width="260" height="150" fill="#F1F5F9"/>
+    <text x="100" y="348" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#2563EB">OBJECTS</text>
+    <text x="100" y="375" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">场景物体</text>
+    <text x="100" y="402" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">Wall · Box · Pillar</text>
+    <text x="100" y="424" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">Barrel · Ramp · Sphere</text>
+
+    <rect x="355" y="315" width="260" height="150" fill="#F1F5F9"/>
+    <text x="375" y="348" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#F59E0B">FLAGS</text>
+    <text x="375" y="375" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">旗帜系统</text>
+    <text x="375" y="402" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">Gold · Red · White</text>
+    <text x="375" y="424" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">抓取得分 + 重生机制</text>
+
+    <rect x="630" y="315" width="260" height="150" fill="#F1F5F9"/>
+    <text x="650" y="348" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#0D9488">PLAYERS</text>
+    <text x="650" y="375" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">玩家系统</text>
+    <text x="650" y="402" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">LocalPlayer 发送位置</text>
+    <text x="650" y="424" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">RemotePlayer 接收插值</text>
+
+    <rect x="905" y="315" width="260" height="150" fill="#F1F5F9"/>
+    <text x="925" y="348" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#7C3AED">UI</text>
+    <text x="925" y="375" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#0F172A">界面系统</text>
+    <text x="925" y="402" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">JoinPanel · 主菜单</text>
+    <text x="925" y="424" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">MapSelect · 得分显示</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">08</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="section">
+  <defs>
+    <radialGradient id="bgGlow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#06D6D0" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#06D6D0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chapterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06D6D0"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#0A0E17"/>
+    <rect width="1280" height="720" fill="url(#bgGlow)"/>
+  </g>
+
+  <g id="chapter-header">
+    <text x="100" y="250" font-family="Consolas, 'Courier New', monospace" font-size="80" font-weight="bold" fill="#06D6D0" fill-opacity="0.12">03</text>
+    <text x="100" y="350" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="52" font-weight="bold" fill="#E2E8F0">工作汇报</text>
+    <rect x="100" y="380" width="200" height="3" rx="1.5" fill="url(#chapterGrad)"/>
+  </g>
+
+  <g id="chapter-contents">
+    <text x="100" y="460" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#94A3B8">各成员在项目中的工作内容与贡献</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">13</text>
+  </g>
+</svg>

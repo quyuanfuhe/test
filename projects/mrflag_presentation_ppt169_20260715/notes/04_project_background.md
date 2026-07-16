@@ -1,0 +1,1 @@
+我们的开发环境是 Unity 2022.3 LTS，目标平台是 Pico 4 Ultra Enterprise，这是目前企业级 MR 头显的主流选择。后端使用 Go 语言，支持 HTTP、WebSocket 和 UDP 三种通信协议。目标受众是 MR 体验爱好者、Pico 头显用户，以及对空间计算感兴趣的技术用户。

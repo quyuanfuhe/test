@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <defs>
+    <radialGradient id="bgGlow" cx="85%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06D6D0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#0A0E17"/>
+    <rect width="1280" height="720" fill="url(#bgGlow)"/>
+  </g>
+
+  <g id="header">
+    <text x="100" y="70" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="bold" fill="#E2E8F0">项目介绍</text>
+    <rect x="100" y="90" width="80" height="2" rx="1" fill="url(#dividerGrad)"/>
+  </g>
+
+  <g id="lead">
+    <text x="100" y="145" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" fill="#94A3B8">一款基于 Pico 4 Ultra Enterprise 的双人混合现实（MR）夺旗对战游戏</text>
+  </g>
+
+  <g id="core-gameplay">
+    <rect x="100" y="185" width="1080" height="120" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="140" y="222" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" font-weight="bold" fill="#3B82F6">核心玩法</text>
+    <text x="140" y="260" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" fill="#E2E8F0">在限定时间内，玩家佩戴头显在真实空间中抓取虚拟旗帜得分。单人 30 秒挑战 / 双人实时联机对战，Go 后端仲裁游戏逻辑。</text>
+  </g>
+
+  <g id="feature-cards">
+    <rect x="100" y="340" width="335" height="150" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="130" y="380" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#3B82F6">01</text>
+    <text x="130" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#E2E8F0">地图编辑器</text>
+    <text x="130" y="440" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">XR 手柄搭建自定义场景</text>
+
+    <rect x="473" y="340" width="335" height="150" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="503" y="380" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#06D6D0">02</text>
+    <text x="503" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#E2E8F0">地图同步</text>
+    <text x="503" y="440" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">WebSocket 云端推送地图</text>
+
+    <rect x="845" y="340" width="335" height="150" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="875" y="380" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#8B5CF6">03</text>
+    <text x="875" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#E2E8F0">实时同步</text>
+    <text x="875" y="440" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">UDP 30Hz 位置 + 空间锚点</text>
+  </g>
+
+  <g id="mode-cards">
+    <rect x="100" y="530" width="520" height="100" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="140" y="567" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#3B82F6">单人模式</text>
+    <text x="140" y="598" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#94A3B8">30 秒限时夺旗挑战，独立计分</text>
+
+    <rect x="660" y="530" width="520" height="100" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="700" y="567" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#06D6D0">联机模式</text>
+    <text x="700" y="598" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#94A3B8">双人局域网实时对战，服务端逻辑仲裁</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">05</text>
+  </g>
+</svg>

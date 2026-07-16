@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="cover">
+  <defs>
+    <radialGradient id="bgGlow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="accentGlow" cx="25%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#06D6D0" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#06D6D0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06D6D0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#0A0E17"/>
+    <rect width="1280" height="720" fill="url(#bgGlow)"/>
+    <rect width="1280" height="720" fill="url(#accentGlow)"/>
+  </g>
+
+  <g id="decoration">
+    <polygon points="1140,120 1170,103 1200,120 1200,154 1170,171 1140,154" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1.5"/>
+    <polygon points="1060,90 1080,78 1100,90 1100,114 1080,126 1060,114" fill="none" stroke="#06D6D0" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="60" y1="620" x2="60" y2="580" stroke="#1E293B" stroke-width="1"/>
+    <line x1="60" y1="580" x2="130" y2="580" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="130" cy="580" r="3" fill="none" stroke="#3B82F6" stroke-opacity="0.5" stroke-width="1"/>
+    <circle cx="1100" cy="660" r="1.5" fill="#3B82F6" fill-opacity="0.15"/>
+    <circle cx="1130" cy="660" r="1.5" fill="#3B82F6" fill-opacity="0.15"/>
+    <circle cx="1160" cy="660" r="1.5" fill="#3B82F6" fill-opacity="0.15"/>
+    <circle cx="1115" cy="630" r="1.5" fill="#3B82F6" fill-opacity="0.15"/>
+    <circle cx="1145" cy="630" r="1.5" fill="#3B82F6" fill-opacity="0.15"/>
+  </g>
+
+  <g id="title-block">
+    <text x="100" y="260" font-family="Consolas, 'Courier New', monospace" font-size="16" fill="#3B82F6" letter-spacing="6">MR FLAG BATTLE</text>
+    <text x="100" y="340" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#titleGrad)">混合现实夺旗大战</text>
+    <text x="100" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="28" fill="#94A3B8">Unity + Pico 4 Ultra Enterprise + Go 后端</text>
+    <rect x="100" y="450" width="280" height="2" rx="1" fill="url(#titleGrad)"/>
+  </g>
+
+  <g id="meta-info">
+    <text x="100" y="520" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#64748B">项目总结汇报</text>
+    <text x="100" y="570" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#64748B">2026.07</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">01</text>
+  </g>
+</svg>

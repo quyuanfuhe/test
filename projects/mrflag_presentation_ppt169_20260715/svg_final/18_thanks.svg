@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="ending">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="480" height="720" fill="#2563EB"/>
+  </g>
+
+  <g id="thanks-text">
+    <text x="720" y="340" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="60" font-weight="bold" fill="#0F172A" text-anchor="middle">谢谢观看</text>
+    <rect x="620" y="370" width="200" height="4" fill="#0D9488"/>
+    <text x="720" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" fill="#475569" text-anchor="middle">MR Flag Battle — 混合现实夺旗大战</text>
+  </g>
+
+  <g id="footer-info">
+    <text x="720" y="550" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#94A3B8" text-anchor="middle">[ 联系方式 / 团队信息 ]</text>
+    <text x="720" y="585" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8" text-anchor="middle">2026.07</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">18</text>
+  </g>
+</svg>

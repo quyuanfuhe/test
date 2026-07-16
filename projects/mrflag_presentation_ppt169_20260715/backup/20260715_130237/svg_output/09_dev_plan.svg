@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <defs>
+    <radialGradient id="bgGlow" cx="85%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06D6D0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#0A0E17"/>
+    <rect width="1280" height="720" fill="url(#bgGlow)"/>
+  </g>
+
+  <g id="header">
+    <text x="100" y="60" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="bold" fill="#E2E8F0">开发计划</text>
+    <rect x="100" y="78" width="80" height="2" rx="1" fill="url(#dividerGrad)"/>
+  </g>
+
+  <g id="timeline">
+    <line x1="140" y1="130" x2="140" y2="640" stroke="#1E293B" stroke-width="2"/>
+
+    <!-- Phase 1 -->
+    <circle cx="140" cy="180" r="8" fill="#111827" stroke="#3B82F6" stroke-width="2"/>
+    <rect x="180" y="148" width="480" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="200" y="174" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#3B82F6">PHASE 1</text>
+    <text x="200" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">Unity 项目搭建与 SDK 集成</text>
+
+    <!-- Phase 2 -->
+    <circle cx="140" cy="290" r="8" fill="#111827" stroke="#06D6D0" stroke-width="2"/>
+    <rect x="180" y="258" width="480" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="200" y="284" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#06D6D0">PHASE 2</text>
+    <text x="200" y="308" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">单人游戏模式 — MRGame / MRFlag</text>
+
+    <!-- Phase 3 -->
+    <circle cx="140" cy="400" r="8" fill="#111827" stroke="#8B5CF6" stroke-width="2"/>
+    <rect x="180" y="368" width="480" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="200" y="394" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8B5CF6">PHASE 3</text>
+    <text x="200" y="418" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">Go 后端搭建 — HTTP / WS / UDP</text>
+
+    <!-- Phase 4 -->
+    <circle cx="140" cy="510" r="8" fill="#111827" stroke="#F59E0B" stroke-width="2"/>
+    <rect x="180" y="478" width="480" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="200" y="504" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#F59E0B">PHASE 4</text>
+    <text x="200" y="528" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">双人联机 — MultiGame / 网络同步</text>
+
+    <!-- Phase 5 -->
+    <circle cx="140" cy="620" r="8" fill="#111827" stroke="#10B981" stroke-width="2"/>
+    <rect x="180" y="588" width="480" height="64" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="200" y="614" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#10B981">PHASE 5</text>
+    <text x="200" y="638" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">地图编辑器 + 地图同步</text>
+
+    <!-- Phase 6 -->
+    <text x="750" y="180" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#64748B">PHASE 6</text>
+    <rect x="750" y="195" width="440" height="100" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="775" y="228" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#E2E8F0">模型替换 · UI 优化 · Bug 修复</text>
+    <text x="775" y="258" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">替换旗帜 / 场景物 / 玩家模型</text>
+    <text x="775" y="282" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">Addressables 构建 · 联机稳定性</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">09</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="ending">
+  <defs>
+    <radialGradient id="bgGlow" cx="80%" cy="20%" r="60%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="accentGlow" cx="25%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#06D6D0" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#06D6D0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06D6D0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#0A0E17"/>
+    <rect width="1280" height="720" fill="url(#bgGlow)"/>
+    <rect width="1280" height="720" fill="url(#accentGlow)"/>
+  </g>
+
+  <g id="decoration">
+    <polygon points="1140,120 1170,103 1200,120 1200,154 1170,171 1140,154" fill="none" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1.5"/>
+    <circle cx="130" cy="580" r="3" fill="none" stroke="#3B82F6" stroke-opacity="0.5" stroke-width="1"/>
+    <line x1="60" y1="620" x2="60" y2="580" stroke="#1E293B" stroke-width="1"/>
+    <line x1="60" y1="580" x2="130" y2="580" stroke="#1E293B" stroke-width="1"/>
+  </g>
+
+  <g id="thanks-text">
+    <text x="640" y="340" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="60" font-weight="bold" fill="url(#titleGrad)" text-anchor="middle">谢谢观看</text>
+    <rect x="530" y="380" width="220" height="2" rx="1" fill="url(#titleGrad)"/>
+    <text x="640" y="440" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="24" fill="#94A3B8" text-anchor="middle">MR Flag Battle — 混合现实夺旗大战</text>
+  </g>
+
+  <g id="footer-info">
+    <text x="640" y="560" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#64748B" text-anchor="middle">[ 联系方式 / 团队信息 ]</text>
+    <text x="640" y="595" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">2026.07</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">18</text>
+  </g>
+</svg>

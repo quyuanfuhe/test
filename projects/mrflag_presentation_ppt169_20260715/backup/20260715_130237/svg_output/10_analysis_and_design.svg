@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <defs>
+    <radialGradient id="bgGlow" cx="85%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06D6D0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#0A0E17"/>
+    <rect width="1280" height="720" fill="url(#bgGlow)"/>
+  </g>
+
+  <g id="header">
+    <text x="100" y="60" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="bold" fill="#E2E8F0">需求分析与设计文档</text>
+    <rect x="100" y="78" width="80" height="2" rx="1" fill="url(#dividerGrad)"/>
+  </g>
+
+  <!-- Placeholder: Requirements Analysis -->
+  <g id="placeholder-req">
+    <rect x="100" y="130" width="1080" height="240" rx="8" fill="#0A0E17" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="8,4"/>
+    <line x1="110" y1="170" x2="1170" y2="170" stroke="#1E293B" stroke-width="0.5"/>
+    <rect x="100" y="130" width="1080" height="40" rx="8" fill="#111827"/>
+    <rect x="100" y="162" width="1080" height="8" fill="#111827"/>
+    <text x="640" y="270" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">在此处插入需求分析文档截图</text>
+  </g>
+
+  <!-- Placeholder: Design Docs -->
+  <g id="placeholder-design">
+    <rect x="100" y="410" width="1080" height="240" rx="8" fill="#0A0E17" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="8,4"/>
+    <line x1="110" y1="450" x2="1170" y2="450" stroke="#1E293B" stroke-width="0.5"/>
+    <rect x="100" y="410" width="1080" height="40" rx="8" fill="#111827"/>
+    <rect x="100" y="442" width="1080" height="8" fill="#111827"/>
+    <text x="640" y="550" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">在此处插入设计文档截图</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">10</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="section">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="480" height="720" fill="#F1F5F9"/>
+  </g>
+
+  <g id="chapter-header">
+    <text x="580" y="260" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="bold" fill="#0D9488">03</text>
+    <text x="580" y="350" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="52" font-weight="bold" fill="#0F172A">工作汇报</text>
+    <rect x="580" y="375" width="80" height="4" fill="#2563EB"/>
+  </g>
+
+  <g id="chapter-contents">
+    <text x="580" y="450" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#475569">各成员在项目中的工作内容与贡献</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">13</text>
+  </g>
+</svg>

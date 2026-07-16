@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <defs>
+    <radialGradient id="bgGlow" cx="85%" cy="15%" r="55%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06D6D0"/>
+    </linearGradient>
+  </defs>
+
+  <g id="background">
+    <rect width="1280" height="720" fill="#0A0E17"/>
+    <rect width="1280" height="720" fill="url(#bgGlow)"/>
+  </g>
+
+  <g id="header">
+    <text x="100" y="60" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="bold" fill="#E2E8F0">技术亮点与演示</text>
+    <rect x="100" y="78" width="80" height="2" rx="1" fill="url(#dividerGrad)"/>
+  </g>
+
+  <!-- Left: tech highlights -->
+  <g id="tech-highlights">
+    <rect x="100" y="130" width="500" height="120" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="130" y="168" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#3B82F6">HIGHLIGHT 01</text>
+    <text x="130" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">空间锚点共享坐标系</text>
+    <text x="130" y="228" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">Pico Spatial Anchor 实现双人 MR 场景精确对齐</text>
+
+    <rect x="100" y="270" width="500" height="120" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="130" y="308" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#06D6D0">HIGHLIGHT 02</text>
+    <text x="130" y="338" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">MsgPack 自定义编解码器</text>
+    <text x="130" y="368" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">C# 端与 Go 端格式严格一致，UDP 30Hz 同步</text>
+
+    <rect x="100" y="410" width="500" height="120" rx="8" fill="#111827" stroke="#1E293B" stroke-width="1"/>
+    <text x="130" y="448" font-family="Consolas, 'Courier New', monospace" font-size="14" fill="#8B5CF6">HIGHLIGHT 03</text>
+    <text x="130" y="478" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#E2E8F0">开发简化模式</text>
+    <text x="130" y="508" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8">Go 后端自动创建默认房间，无需手动配置即可联机调试</text>
+  </g>
+
+  <!-- Right: video placeholder -->
+  <g id="video-placeholder">
+    <rect x="650" y="130" width="530" height="400" rx="8" fill="#0A0E17" stroke="#1E293B" stroke-width="1.5" stroke-dasharray="8,4"/>
+    <polygon points="890,290 890,370 960,330" fill="#64748B" fill-opacity="0.3"/>
+    <text x="915" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#64748B" text-anchor="middle">在此处插入演示视频</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="700" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">12</text>
+  </g>
+</svg>

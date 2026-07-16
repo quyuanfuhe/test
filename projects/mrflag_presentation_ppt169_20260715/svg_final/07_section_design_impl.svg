@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="section">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="480" height="720" fill="#F1F5F9"/>
+  </g>
+
+  <g id="chapter-header">
+    <text x="580" y="220" font-family="Consolas, 'Courier New', monospace" font-size="72" font-weight="bold" fill="#7C3AED">02</text>
+    <text x="580" y="310" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="52" font-weight="bold" fill="#0F172A">前期设计与最终实现</text>
+    <rect x="580" y="335" width="80" height="4" fill="#2563EB"/>
+  </g>
+
+  <g id="chapter-contents">
+    <text x="580" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#475569">本板块涵盖以下内容：</text>
+
+    <g transform="translate(580, 450)">
+      <rect x="0" y="0" width="560" height="60" fill="#FFFFFF"/>
+      <rect x="0" y="0" width="4" height="60" fill="#2563EB"/>
+      <text x="24" y="38" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#0F172A">游戏流程与构筑要素</text>
+    </g>
+    <g transform="translate(580, 525)">
+      <rect x="0" y="0" width="560" height="60" fill="#FFFFFF"/>
+      <rect x="0" y="0" width="4" height="60" fill="#0D9488"/>
+      <text x="24" y="38" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#0F172A">开发计划</text>
+    </g>
+    <g transform="translate(580, 600)">
+      <rect x="0" y="0" width="560" height="60" fill="#FFFFFF"/>
+      <rect x="0" y="0" width="4" height="60" fill="#7C3AED"/>
+      <text x="24" y="38" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" fill="#0F172A">需求分析与设计文档 + 最终实现</text>
+    </g>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">07</text>
+  </g>
+</svg>

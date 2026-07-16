@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" data-pptx-page-role="content">
+  <g id="background">
+    <rect width="1280" height="720" fill="#FFFFFF"/>
+  </g>
+
+  <g id="header">
+    <text x="80" y="60" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="36" font-weight="bold" fill="#0F172A">技术亮点与演示</text>
+    <rect x="80" y="78" width="60" height="4" fill="#2563EB"/>
+  </g>
+
+  <g id="tech-highlights">
+    <rect x="80" y="130" width="540" height="100" fill="#F1F5F9"/>
+    <rect x="80" y="130" width="4" height="100" fill="#2563EB"/>
+    <text x="110" y="162" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#2563EB">HIGHLIGHT 01</text>
+    <text x="110" y="188" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="19" font-weight="bold" fill="#0F172A">空间锚点共享坐标系</text>
+    <text x="110" y="214" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">Pico Spatial Anchor 实现双人 MR 场景精确对齐</text>
+
+    <rect x="80" y="245" width="540" height="100" fill="#F1F5F9"/>
+    <rect x="80" y="245" width="4" height="100" fill="#0D9488"/>
+    <text x="110" y="277" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#0D9488">HIGHLIGHT 02</text>
+    <text x="110" y="303" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="19" font-weight="bold" fill="#0F172A">MsgPack 自定义编解码器</text>
+    <text x="110" y="329" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">C# 端与 Go 端格式严格一致，UDP 30Hz 同步</text>
+
+    <rect x="80" y="360" width="540" height="100" fill="#F1F5F9"/>
+    <rect x="80" y="360" width="4" height="100" fill="#7C3AED"/>
+    <text x="110" y="392" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#7C3AED">HIGHLIGHT 03</text>
+    <text x="110" y="418" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="19" font-weight="bold" fill="#0F172A">开发简化模式</text>
+    <text x="110" y="444" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#475569">Go 后端自动创建默认房间，无需手动配置即可联机调试</text>
+  </g>
+
+  <g id="video-placeholder">
+    <rect x="660" y="130" width="540" height="330" fill="#FAFBFC" stroke="#E2E8F0" stroke-width="1.5" stroke-dasharray="8,4"/>
+    <polygon points="905,270 905,340 970,305" fill="#94A3B8"/>
+    <text x="930" y="380" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#94A3B8" text-anchor="middle">在此处插入演示视频</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#94A3B8" text-anchor="end">12</text>
+  </g>
+</svg>
